@@ -16,7 +16,7 @@ int main(void)
 		putchar(i + '0');
 		if (n < 99)
 		{
-			putchar('0');
+			putchar(',');
 			putchar(32);
 		}
 		i++;
