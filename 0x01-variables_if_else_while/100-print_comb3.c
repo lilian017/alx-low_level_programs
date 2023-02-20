@@ -1,7 +1,7 @@
 #include <stdio.h>
 
 /**
- * main - A program that prints all possible different combinations of two digits
+ * main - Program that prints all possible different combinations of 2 digits
  *
  * Return: Always 0 (Success)
  */
@@ -16,8 +16,8 @@ int main(void)
 		putchar(i + '0');
 		if (n < 99)
 		{
-			putchar('0')
-				putchar(32);
+			putchar('0');
+			putchar(32);
 		}
 		i++;
 		if (i > 9)
