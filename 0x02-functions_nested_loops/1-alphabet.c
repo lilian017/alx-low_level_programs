@@ -3,8 +3,9 @@
 /**
  * main - A program that prints the lowercase alphabet
  *
- * Return: 0
+ * Return: Always 0
  */
+
 void print_alphabet(void)
 {
 	char c;
@@ -14,4 +15,5 @@ void print_alphabet(void)
 		_putchar(c);
 	}
 	_putchar('\n');
+	return (0);
 }
