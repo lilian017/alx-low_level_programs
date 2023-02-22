@@ -1,11 +1,12 @@
 #include "main.h"
 
 /**
- * main - A program that prints the lowercase alphabet
+ * print_alphabet - A program that prints the lowercase alphabet
  * void
- * Return: Always 0
+ *
+ *
+ *
  */
-
 void print_alphabet(void)
 /** implementation code goes here*/
 {
