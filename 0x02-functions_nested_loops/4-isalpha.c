@@ -2,7 +2,7 @@
 #include<ctype.h>
 
 /**
- * _isapha - check if the given character is lowercase.
+ * _isalpha - check if the given character is lowercase.
  * @c: character to test.
  *
  * Return: 1(True) else 0 (False)
