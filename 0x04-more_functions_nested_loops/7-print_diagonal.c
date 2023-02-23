@@ -1,4 +1,4 @@
-#include "holberton.h"
+#include "main.h"
 
 /**
  * print_diagonal - print a diagonal line to a given lenth.
@@ -10,7 +10,7 @@ void print_diagonal(int n)
 
 	if (n <= 0)
 	{
-		_putchar('\n');
+		putchar('\n');
 		return;
 	}
 
@@ -19,10 +19,10 @@ void print_diagonal(int n)
 		prior = i;
 		while (prior > 0)
 		{
-			_putchar(32);
+			putchar(32);
 			prior--;
 		}
-		_putchar('\\');
-		_putchar('\n');
+		putchar('\\');
+		putchar('\n');
 	}
 }
