@@ -11,7 +11,7 @@ void print_square(int size)
 
 	if (size <= 0)
 	{
-		_putchar('\n');
+		putchar('\n');
 		return;
 	}
 
@@ -19,8 +19,8 @@ void print_square(int size)
 	{
 		for (horiz = size ; horiz > 0 ; horiz--)
 		{
-			_putchar('#');
+			putchar('#');
 		}
-		_putchar('\n');
+		putchar('\n');
 	}
 }
