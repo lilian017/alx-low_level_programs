@@ -1,4 +1,5 @@
 #include "main.h"
+#include <stdio.h>
 
 /**
  * print_square - print a square to a given size.
@@ -11,7 +12,7 @@ void print_square(int size)
 
 	if (size <= 0)
 	{
-		putchar('\n');
+
 		return;
 	}
 
