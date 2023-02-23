@@ -1,5 +1,5 @@
 #include "main.h"
-#include <stio.h>
+#include <stdio.h>
 
 /**
  * print_most_numbers - prints 0 to 9 excluding 2 and 4.
@@ -12,7 +12,7 @@ void print_most_numbers(void)
 	while (num < 10)
 	{
 		if (num != 2 && num != 4)
-			_putchar('0' + num);
+			putchar('0' + num);
 		num++;
 	}
 	putchar('\n');
