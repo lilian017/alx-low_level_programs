@@ -1,5 +1,5 @@
 #include "main.h"
-
+#include <stdio.h>
 /**
  * print_diagonal - print a diagonal line to a given lenth.
  * @n: length to print to.
