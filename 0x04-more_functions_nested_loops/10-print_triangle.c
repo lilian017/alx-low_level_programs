@@ -1,5 +1,5 @@
 #include "main.h"
-
+#include<stdio.h>
 /**
  * print_triangle - print a triangle at a give size.
  * @size : size of triangle to print.
@@ -19,7 +19,7 @@ void print_triangle(int size)
 
 	if (size <= 0)
 	{
-		_putchar('\n');
+		putchar('\n');
 		return;
 	}
 
@@ -34,7 +34,7 @@ void print_triangle(int size)
 		margin = 0;
 		while (margin < (dis - i))
 		{
-			_putchar(32);
+			putchar(32);
 			margin++;
 		}
 
@@ -42,11 +42,9 @@ void print_triangle(int size)
 
 		while (to_print > 0)
 		{
-			_putchar('#');
+			putchar('#');
 			to_print--;
 		}
-		_putchar('\n');
+		putchar('\n');
 	}
 }
-
-
