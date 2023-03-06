@@ -1,11 +1,10 @@
 #include "main.h"
-#include <stdio.h>
 
 /*
- * _memset function fills the first n bytes of the momory area
- * it is pointed to by s with a constant byte b
+ * _memset - function fills the first n bytes of the momory area
+ * it is pointed to by @s with a constant byte @b
  *
- * Return: Always 0
+ * Return: a pointer to the memory area @s
  */
 
 char *_memset(char *s, char b, unsigned int n)
