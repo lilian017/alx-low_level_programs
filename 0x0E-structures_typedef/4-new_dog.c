@@ -3,7 +3,6 @@
 
 /**
  * new_dog - creates a new dog
- * @t*: points to the new dog
  * @name: points to the name of the new dog
  * @age: points to the age of the new dog
  * @owner: points to the owner of the new dog
@@ -12,6 +11,7 @@
  */
 dog_t *new_dog(char *name, float age, char *owner)
 {
+
 	unsigned int i, j, k;
 		dog_t *dog;
 
