@@ -5,7 +5,7 @@
  * listint_len - numberr of elements in the list.
  * @h: head of the linkedlist node
  *
- * Return number of elements
+ * Return: number of elements
  */
 
 size_t listint_len(const listint_t *h)
