@@ -2,7 +2,7 @@
 #include <stdio.h>
 
 /**
- * listint_len - returns number of elements in listint_t list.
+ * listint_len - numberr of elements in the list.
  * @h: head of the linkedlist node
  *
  * Return number of elements
