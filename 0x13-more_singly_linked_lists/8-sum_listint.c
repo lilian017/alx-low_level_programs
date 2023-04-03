@@ -3,7 +3,7 @@
 
 /**
  * sum_listint - function that sums all the data
- * @ head: pointer to head
+ * @head: pointer to head
  *
  * Return: data sum or 0 if list is empty
  */
