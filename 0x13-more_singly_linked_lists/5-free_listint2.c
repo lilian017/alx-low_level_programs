@@ -3,7 +3,7 @@
 
 /**
  * free_listint2 - frees listint_t list
- * @ head: head pointer to pointer
+ * @head: head pointer to pointer
  *
  * Return: NULL
  */
