@@ -2,7 +2,7 @@
 
 /**
  * reverse_listint -reverses a linked list
- * @head - double pointer
+ * @head: double pointer
  *
  * Return: pointer to the first node of reversed list
  */
