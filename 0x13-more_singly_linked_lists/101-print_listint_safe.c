@@ -36,7 +36,7 @@ const listint_t **_r(const listint_t **list, size_t size, const listint_t *new)
  * Return: number of nodes in the list or 98 if failed
  */
 
- size_t print_listint_safe(const listint_t *head)
+size_t print_listint_safe(const listint_t *head)
 {
 	size_t i, nm = 0;
 	const listint_t **list = NULL;
@@ -47,13 +47,13 @@ const listint_t **_r(const listint_t **list, size_t size, const listint_t *new)
 		{
 			if (head == list[i])
 			{
-				printf("-> [%p] %d\n", (void *)head,head->n);
+				printf("-> [%p] %d\n", (void *)head, head->n);
 				free(list);
 				return (nm);
 			}
 		}
 		nm++;
-		list = _r(list,nm, head);
+		list = _r(list, nm, head);
 		printf("[%p] %d\n", (void *)head, head->n);
 		head = head->next;
 	}
